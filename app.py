@@ -7,7 +7,7 @@ import os
 # Configuration
 # ----------------------------
 st.set_page_config(
-    page_title="BiasCheck – SDG 5",
+    page_title="BiasCheck-PG",
     page_icon="⚖️",  # Optional: keep one subtle icon
     layout="centered"
 )
@@ -108,4 +108,5 @@ if st.button("Analyze for Gender Bias"):
             st.caption(
                 "Note: This tool provides general linguistic suggestions based on research on inclusive hiring. "
                 "It does not constitute legal or HR advice. Always consult diversity and inclusion professionals for critical decisions."
+
             )
